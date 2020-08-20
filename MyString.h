@@ -5,10 +5,10 @@ public:
 	CMyString();
 	~CMyString();
 private:
-	// ¹®ÀÚ¿­À» ÀúÀåÇÏ±â À§ÇØ µ¿Àû ÇÒ´çÇÑ ¸Ş¸ğ¸®¸¦ °¡¸®Å°´Â Æ÷ÀÎÅÍ
+	// ë¬¸ìì—´ì„ ì €ì¥í•˜ê¸° ìœ„í•´ ë™ì  í• ë‹¹í•œ ë©”ëª¨ë¦¬ë¥¼ ê°€ë¦¬í‚¤ëŠ” í¬ì¸í„°
 	char* m_pszData;
-	// ÀúÀåµÈ ¹®ÀÚ¿­ÀÇ ±æÀÌ
-	int m_nLength;
+	// ì €ì¥ëœ ë¬¸ìì—´ì˜ ê¸¸ì´
+	int m_nLength; 
 public:
 	int SetString(const char* pszParam);
 	const char* GetString();
