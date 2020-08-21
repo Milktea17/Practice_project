@@ -16,6 +16,8 @@ CMyString::~CMyString()
 
 int CMyString::SetString(const char* pszParam)
 {
+	//int 
+	
 	return 0;
 }
 
