@@ -1,4 +1,4 @@
-// StringCtrlSample.cpp : ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+// StringCtrlSample.cpp : ì½˜ì†” ì‘ìš© í”„ë¡œê·¸ë¨ì— ëŒ€í•œ ì§„ì…ì ì„ ì •ì˜í•©ë‹ˆë‹¤.
 //
 
 #include "stdafx.h"
@@ -9,6 +9,8 @@ int main()
 {
 	CMyString strData;
 	strData.SetString("Hello");
+	cout << strData.GetString() << endl;
+	strData.SetString("World");
 	cout << strData.GetString() << endl;
 
     return 0;
