@@ -6,7 +6,7 @@ CMyString::CMyString()
 	: m_pszData(NULL)
 	, m_nLength(0)
 {
-}
+} 
 
 
 CMyString::~CMyString()
